@@ -279,3 +279,33 @@ body {
     padding: 14px 16px;
   }
 }
+
+.landing-page {
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.start-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 30px;
+}
+
+.start-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+@media (max-width: 600px) {
+  .start-button {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
